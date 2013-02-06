@@ -1,5 +1,5 @@
-def generujObsah(hlavicka, paticka, soubor_zdroj, soubor_cil, i = 0):
-  "Vygeneruje XML soubor pro FLASH na zaklade CSV souboru"
+def generujObsah(hlavicka, paticka, nazev_zdroj, nazev_cil, i = 0):
+	"Vygeneruje XML soubor pro FLASH na zaklade CSV souboru"
 
 	# nacteni/vytvoreni pracovnich souboru 
 	soubor_zdroj = file(nazev_zdroj, 'r')
