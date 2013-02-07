@@ -27,10 +27,10 @@ def generujObsah(hlavicka, paticka, nazev_zdroj, nazev_cil, i = 0):
 				soubor_cil.write("\t<SATY>\n\t\t")
 				
 				soubor_cil.write('<MODEL>'+ csv[0].strip() +'</MODEL>\n\t\t')
-				soubor_cil.write('<BARVA>'+ csv[1].strip() +'</BARVA>\n\t\t')
-				soubor_cil.write('<CENA>'+ csv[2].strip() +'</CENA>\n\t\t')
-				soubor_cil.write('<POPIS>'+ csv[3].strip() +'</POPIS>\n\t\t')
-				soubor_cil.write('<ZDARMA>'+ csv[4].strip() +'</ZDARMA>\n\t')
+				soubor_cil.write('<BARVA>'+ csv[2].strip() +'</BARVA>\n\t\t')
+				soubor_cil.write('<CENA>'+ csv[3].strip() +'</CENA>\n\t\t')
+				soubor_cil.write('<POPIS>'+ csv[1].strip() +'</POPIS>\n\t\t')
+				soubor_cil.write('<ZDARMA>'+ csv[4] +'</ZDARMA>\n\t')
 				
 				soubor_cil.write('</SATY>\n')
 			
